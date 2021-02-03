@@ -1,0 +1,5 @@
+# Executable
+*.out
+
+# temporary file or directory
+_*
