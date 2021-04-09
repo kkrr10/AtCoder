@@ -1,5 +1,6 @@
 # Executable
 *.out
+*.class
 
 # temporary file or directory
 _*
