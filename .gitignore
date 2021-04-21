@@ -7,3 +7,6 @@ _*
 
 # Kotlin
 META-INF
+
+# Environment
+.vscode
