@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.toCharArray().map { when(it) { '6' -> '9'; '9' -> '6'; else -> it } }.reversed().joinToString(""))
