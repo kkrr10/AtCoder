@@ -1,0 +1,1 @@
+fun main() = println(if(readLine()!!.toInt() == readLine()!!.split(" ").map { it.toInt() }.toSet().size) "Yes" else "No")
