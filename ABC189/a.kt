@@ -1,0 +1,1 @@
+fun main() = println(if(readLine()!!.toSet().size == 1) "Won" else "Lost")
