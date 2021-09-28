@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").indexOf("0") + 1)

@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").mapIndexed { idx, value -> idx + 1 - value.toInt() }.sum())
