@@ -1,0 +1,1 @@
+fun main() = readLine()!!.split(" ").map { it.toInt() }.let { println(if (it[3] < it[0] * it[1] || it[0] * it[2] < it[3]) "Yes" else "No") }
