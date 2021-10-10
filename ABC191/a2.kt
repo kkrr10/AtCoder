@@ -1,0 +1,1 @@
+fun main() = readLine()!!.split(" ").map { it.toInt() }.let { (v, t, s, d) -> println(if (d in v*t..v*s) "No" else "Yes") }
