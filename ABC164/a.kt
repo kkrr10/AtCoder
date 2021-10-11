@@ -1,0 +1,1 @@
+fun main() = readLine()!!.split(" ").map { it.toInt() }.let { println(if (it[0] > it[1]) "safe" else "unsafe") }
