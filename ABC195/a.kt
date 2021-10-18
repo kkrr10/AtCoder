@@ -1,0 +1,1 @@
+fun main()=println(readLine()!!.split(" ").map{it.toInt()}.let{(m,h)->if(h%m==0)"Yes" else "No"})
