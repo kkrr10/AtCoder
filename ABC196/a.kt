@@ -1,2 +1,2 @@
-fun rec() = readLine()!!.split(" ").map { it.toInt() }
-fun main() = println(rec()[1] - rec()[0])
+fun rc()=readLine()!!.split(" ").map{it.toInt()}
+fun main()=println(rc()[1]-rc()[0])
