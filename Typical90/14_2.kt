@@ -1,0 +1,1 @@
+fun main() { readLine(); println(readLine()!!.split(" ").map { it.toLong() }.sorted().zip(readLine()!!.split(" ").map { it.toLong() }.sorted()) { a, b -> Math.abs(a - b) }.sum()) }
