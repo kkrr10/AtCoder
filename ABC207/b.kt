@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").map { it.toInt() }.let { (a, b, c, d) -> if (c*d - b <= 0) -1 else (a + c*d - b - 1) / (c*d - b) })
