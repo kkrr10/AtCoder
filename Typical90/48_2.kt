@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").map { it.toInt() }.let { (n, k) -> (1..n).flatMap { readLine()!!.split(" ").map { it.toLong() }.let { (a, b) -> listOf(b, a-b) } }.sortedBy { -it }.take(k).sum() })
