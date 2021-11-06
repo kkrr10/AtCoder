@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").map { it.toInt() }.let { (a, b) -> if (listOf(a, b, a+b).any { it % 3 == 0 }) "Possible" else "Impossible" })
