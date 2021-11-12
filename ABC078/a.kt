@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").let { (a, b) -> if (a < b) "<" else if (a > b) ">" else "=" })
