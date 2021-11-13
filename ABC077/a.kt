@@ -1,0 +1,1 @@
+fun main() = println(if (readLine()!!.reversed() == readLine()!!) "YES" else "NO")
