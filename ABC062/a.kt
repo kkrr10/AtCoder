@@ -1,0 +1,1 @@
+fun main() = println(listOf(1, 3, 1, 2, 1, 2, 1, 1, 2, 1, 2, 1).let { readLine()!!.split(" ").map { it.toInt() - 1 }.let { (x, y) -> if (it[x] == it[y]) "Yes" else "No" } })
