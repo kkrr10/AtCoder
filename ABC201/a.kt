@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").map { it.toInt() }.sorted().let { (a, b, c) -> if (c - b == b - a) "Yes" else "No" })
