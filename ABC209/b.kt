@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").map { it.toInt() }.let { (n, x) -> if (readLine()!!.split(" ").map { it.toInt() }.sum() - n / 2 <= x) "Yes" else "No" })
