@@ -1,0 +1,1 @@
+fun main() = println(21 - readLine()!!.split(" ").map { it.toInt() }.sum())
