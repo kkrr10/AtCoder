@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.toLong().toString(2).length - 1)
