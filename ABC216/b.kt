@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.toInt().let { if (Array(it) { readLine()!! }.toSet().size != it) "Yes" else "No" })
