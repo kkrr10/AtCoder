@@ -1,0 +1,2 @@
+fun gcd(x: Long, y: Long): Long = if (y == 0L) x else gcd(y, x % y)
+fun main() = println(readLine()!!.split(" ").map { it.toLong() }.let { (a, b, c) -> gcd(gcd(a, b), c).let { (a + b + c) / it - 3 } })
