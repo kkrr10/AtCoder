@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").map { 'a' + it.toInt() - 1 }.joinToString(""))
