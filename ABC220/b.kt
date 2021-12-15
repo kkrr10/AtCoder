@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.toInt().let { k -> readLine()!!.split(" ").map { it.toLong(k) }.let { (a, b) -> a * b } })
