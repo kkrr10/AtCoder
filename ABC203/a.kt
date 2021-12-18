@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").let { (a, b, c) -> if (a == b) c else if (b == c) a else if (c == a) b else 0 })
