@@ -1,0 +1,1 @@
+fun main() = println(2 * Math.PI * readLine()!!.toFloat())

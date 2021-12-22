@@ -1,0 +1,1 @@
+fun main() = println(2*readLine()!!.toInt()*3.141)
