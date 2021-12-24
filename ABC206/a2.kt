@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.toInt().let { if (it < 191) "Yay!" else if (it > 191) ":(" else "so-so" })
