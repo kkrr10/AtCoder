@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").map { it.toInt() }.let { (a, b) -> if (b in a..6*a) "Yes" else "No" })
