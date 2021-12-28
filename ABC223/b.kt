@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.let { s -> s.indices.map { s.substring(it) + s.substring(0, it) }.let { l -> l.min() + "\n" + l.max() } })
