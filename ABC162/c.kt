@@ -1,0 +1,2 @@
+fun gcd(x: Int, y: Int): Int = if (y == 0) x else gcd(y, x % y)
+fun main() = println(readLine()!!.toInt().let { (1..it).map { i -> (1..it).map { j -> (1..it).map { l -> gcd(gcd(i, j), l) }.sum() }.sum() }.sum() })
