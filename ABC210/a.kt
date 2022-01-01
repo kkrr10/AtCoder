@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").map{ it.toInt() }.let { (n, a, x, y) -> minOf(a, n)*x + maxOf(n-a, 0)*y })
