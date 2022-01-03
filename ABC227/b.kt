@@ -1,0 +1,1 @@
+fun main() = println((1..250).map { a -> (1..250).map { b -> 4*a*b + 3*a + 3*b } }.flatMap { it }.let { poss -> readLine()!!.toInt() - readLine()!!.split(" ").count { poss.contains(it.toInt()) } })
