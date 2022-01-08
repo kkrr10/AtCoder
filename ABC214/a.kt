@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.toInt().let { if (it < 126) 4 else if (it < 212) 6 else 8 })
