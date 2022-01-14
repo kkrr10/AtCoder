@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(".").let { "${it[0]}${when (it[1].toInt()) { in 0..2 -> "-"; in 7..9 -> "+"; else -> "" }}" })
