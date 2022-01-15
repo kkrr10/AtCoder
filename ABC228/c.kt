@@ -1,0 +1,1 @@
+fun main() = readLine()!!.split(" ").map { it.toInt() }.let { (n, k) -> Array(n) { readLine()!!.split(" ").map { it.toInt() }.sum() }.let { ps -> ps.sorted()[n-k].let { kth -> for (p in ps) println(if (p + 300 >= kth) "Yes" else "No") } } }
