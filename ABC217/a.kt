@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").let { if (it[0] < it[1]) "Yes" else "No" })
