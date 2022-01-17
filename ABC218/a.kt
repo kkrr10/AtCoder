@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.toInt().let { if (readLine()!![it-1] == 'o') "Yes" else "No" })
