@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").map { it.toInt() }.let { (n, x) -> minOf(x-1, n-x) })
