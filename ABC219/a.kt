@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.toInt().let { x -> when { x < 40 -> 40 - x; x < 70 -> 70 - x; x < 90 -> 90 - x; else -> "expert" } })
