@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").map { it.toInt() }.let { (a, b, c) -> (a..b).find { it % c == 0 } ?: -1 })

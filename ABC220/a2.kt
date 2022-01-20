@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").map { it.toInt() }.let { (a, b, c) -> (b / c * c).let { if (it >= a) it else -1 } })
