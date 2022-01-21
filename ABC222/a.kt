@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.padStart(4, '0'))
