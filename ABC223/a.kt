@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.toInt().let { if (it % 100 != 0 || it == 0) "No" else "Yes" })
