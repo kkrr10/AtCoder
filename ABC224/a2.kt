@@ -1,0 +1,1 @@
+fun main() = println(if (readLine()!!.endsWith("r")) "er" else "ist")
