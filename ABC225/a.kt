@@ -1,0 +1,1 @@
+fun main() = println(when (readLine()!!.toSet().size) { 1 -> 1; 2 -> 3; else -> 6 })
