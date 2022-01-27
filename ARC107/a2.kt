@@ -1,0 +1,1 @@
+fun main() = println(998244353.let { MOD -> readLine()!!.split(" ").map { it.toLong() }.map { it * (it + 1) / 2 % MOD }.reduce { x, y -> x * y % MOD } })
