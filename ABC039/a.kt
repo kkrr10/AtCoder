@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").map { it.toInt() }.let { (a, b, c) -> 2 * (a*b + b*c + c*a) })
