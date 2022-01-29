@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(".").let { (x, y) -> "${x.toInt() + if ((y[0] - '0') in 0..4) 0 else 1}" })

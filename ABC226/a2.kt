@@ -1,0 +1,1 @@
+fun main() = println(Math.round(readLine()!!.toFloat()))
