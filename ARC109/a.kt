@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").map { it.toInt() }.let { (a, b, x, y) -> x + minOf(y, 2*x) * if (a > b) a-b-1  else b-a })
