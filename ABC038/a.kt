@@ -1,0 +1,1 @@
+fun main() = println(if (readLine()!!.endsWith("T")) "YES" else "NO")
