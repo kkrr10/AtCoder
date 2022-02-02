@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").map { it.toInt() }.let { (n, k, a) -> (a + k - 2) % n + 1 })
