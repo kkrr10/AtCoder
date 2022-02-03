@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").map { it.toInt() }.let { it[2] / minOf(it[0], it[1]) })
