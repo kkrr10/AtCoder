@@ -1,0 +1,1 @@
+fun main() = println(if ("oxxoxxoxxoxx".contains(readLine()!!)) "Yes" else "No")

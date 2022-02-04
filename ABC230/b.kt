@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.let { s -> if (listOf("oxxoxxoxxo", "xxoxxoxxox", "xoxxoxxoxx").find { it.substring(0, s.length) == s } != null) "Yes" else "No" })
