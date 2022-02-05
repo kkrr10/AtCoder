@@ -1,0 +1,1 @@
+fun main() = println(List(readLine()!!.toInt()) { readLine()!! }.groupingBy { it }.eachCount().maxBy { it.value }!!.key)

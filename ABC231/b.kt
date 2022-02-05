@@ -1,0 +1,1 @@
+fun main() = println(List(readLine()!!.toInt()) { readLine()!! }.let { ss -> ss.map { s -> s to ss.count { it == s } }.sortedBy { -it.second }[0].first })
