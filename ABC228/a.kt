@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(" ").map { it.toInt() }.let { (s, t, x) -> if ((s < t && x in s..t-1) || (s > t && (x < t || s <= x))) "Yes" else "No" })
