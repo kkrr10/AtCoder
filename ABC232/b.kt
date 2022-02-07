@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.let { if (readLine()!!.mapIndexed { i, v -> (it[i] - v + 26) % 26 }.toSet().size == 1) "Yes" else "No" })
