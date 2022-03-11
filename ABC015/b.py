@@ -1,0 +1,5 @@
+n = int(input())
+a = list(map(int, input().split()))
+bug = sum(a)
+num = sum([v > 0 for v in a])
+print((bug + num - 1) // num)
